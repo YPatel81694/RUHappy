@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="main.ruhappy.entertainment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="22dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Entertainment for Today"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/entTextView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
+            android:background="@color/lightgrey"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/darkBlack"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/entTextView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+             />
+    </RelativeLayout>
+</FrameLayout>

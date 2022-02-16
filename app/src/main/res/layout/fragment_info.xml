@@ -1,0 +1,313 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="main.ruhappy.Info">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:layout_gravity="left|top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Address"
+                android:id="@+id/address"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentEnd="false"
+                android:background="@color/lightgrey"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/darkBlack"
+                android:id="@+id/ads"
+                android:layout_below="@+id/address"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Hours"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/hours"
+                android:background="@color/lightgrey"
+                android:layout_below="@+id/ads"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp" />
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/darkBlack"
+                android:id="@+id/mon"
+                android:text="Monday"
+                android:layout_below="@+id/hours"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/Monday"
+                android:paddingLeft="5dp"
+                android:textColor="@color/darkBlack"
+                android:paddingTop="5dp"
+
+                android:layout_alignTop="@+id/mon"
+                android:layout_toRightOf="@+id/mon"
+                android:layout_toEndOf="@+id/mon" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/Monday"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_marginTop="5dp"
+                android:id="@+id/monline"/>
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/darkBlack"
+                android:id="@+id/tues"
+                android:text="Tuesday"
+                android:layout_below="@+id/monline"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/Tuesday"
+                android:paddingLeft="5dp"
+                android:textColor="@color/darkBlack"
+                android:paddingTop="5dp"
+
+                android:layout_alignTop="@+id/tues"
+                android:layout_toRightOf="@+id/tues"
+                android:layout_toEndOf="@+id/tues" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/Tuesday"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_marginTop="5dp"
+                android:id="@+id/tuesline"/>
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/darkBlack"
+                android:id="@+id/weds"
+                android:text="Wednesday"
+                android:layout_below="@+id/tuesline"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/Wednesday"
+                android:paddingLeft="5dp"
+                android:textColor="@color/darkBlack"
+                android:paddingTop="5dp"
+
+                android:layout_alignTop="@+id/weds"
+                android:layout_toRightOf="@+id/weds"
+                android:layout_toEndOf="@+id/weds" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/Wednesday"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_marginTop="5dp"
+                android:id="@+id/wedsline"/>
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/darkBlack"
+                android:id="@+id/thurs"
+                android:text="Thursday"
+                android:layout_below="@+id/wedsline"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/Thursday"
+                android:paddingLeft="5dp"
+                android:textColor="@color/darkBlack"
+                android:paddingTop="5dp"
+
+                android:layout_alignTop="@+id/thurs"
+                android:layout_toRightOf="@+id/thurs"
+                android:layout_toEndOf="@+id/thurs" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/Thursday"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_marginTop="5dp"
+                android:id="@+id/thursline"/>
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/darkBlack"
+                android:id="@+id/frid"
+                android:text="Friday"
+                android:layout_below="@+id/thursline"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/Friday"
+                android:paddingLeft="5dp"
+                android:textColor="@color/darkBlack"
+                android:paddingTop="5dp"
+
+                android:layout_alignTop="@+id/frid"
+                android:layout_toRightOf="@+id/frid"
+                android:layout_toEndOf="@+id/frid" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/Friday"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_marginTop="5dp"
+                android:id="@+id/fridline"/>
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/darkBlack"
+                android:id="@+id/sat"
+                android:text="Saturday"
+                android:layout_below="@+id/fridline"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/Saturday"
+                android:paddingLeft="5dp"
+                android:textColor="@color/darkBlack"
+                android:paddingTop="5dp"
+
+                android:layout_alignTop="@+id/sat"
+                android:layout_toRightOf="@+id/sat"
+                android:layout_toEndOf="@+id/sat" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/Saturday"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_marginTop="5dp"
+                android:id="@+id/satline"/>
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/darkBlack"
+                android:id="@+id/sun"
+                android:text="Sunday"
+                android:layout_below="@+id/satline"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/Sunday"
+                android:paddingLeft="5dp"
+                android:textColor="@color/darkBlack"
+                android:paddingTop="5dp"
+
+                android:layout_alignTop="@+id/sun"
+                android:layout_toRightOf="@+id/sun"
+                android:layout_toEndOf="@+id/sun" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/Sunday"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_marginTop="5dp"
+                android:id="@+id/sunline"/>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

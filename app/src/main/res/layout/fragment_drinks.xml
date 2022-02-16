@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="main.ruhappy.drinks">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="left|top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Featured Daily Specials"
+                android:id="@+id/textView6"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentEnd="false"
+                android:background="@color/lightgrey"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp" />
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView2"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Happy Hour"
+                android:id="@+id/textView7"
+                android:textColor="@color/colorWhite"
+                android:background="@color/lightgrey"
+                android:layout_below="@+id/listView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="22dp"
+                android:background="@color/lightgrey"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView8"
+                android:textColor="@color/colorWhite"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_below="@+id/listView2"
+                android:layout_toRightOf="@+id/textView7"
+                android:layout_toEndOf="@+id/textView7"
+                android:paddingTop="2dp" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView3"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TableRow android:layout_marginTop="10dp">
+        <RelativeLayout>
+            <ImageView
+                android:id="@+id/barPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:scaleType="centerCrop"
+                 />
+        </RelativeLayout>
+
+
+
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_marginTop="10dp">
+        <RelativeLayout>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:id="@+id/barName"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_toLeftOf="@+id/ent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/ent"
+                android:src="@drawable/en"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/hh"
+                android:layout_toStartOf="@+id/hh" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/hh"
+                android:src="@drawable/ha"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/miles"
+                android:textAlignment="center"
+                android:layout_toLeftOf="@+id/ent"
+                android:layout_below="@+id/barName"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+
+    </TableRow>
+
+
+</TableLayout>
